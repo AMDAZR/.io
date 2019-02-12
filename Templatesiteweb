@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <title>Site Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+ <style>
+@media all and (min-width: 800px){
+   body{
+    direction: rtl;
+    width: 960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   header{
+     background-color: #4D381D;/*for browser not support gradient */
+     background-image: linear-gradient(75deg,#4D381D,#FED5A9);
+     height: 150px;
+   }
+   header>nav{
+     width: 500px;
+     float: left;
+     background-color: #FED5A9;
+     height: 45px;
+     margin-top: 45px;
+     border-radius: 0px 5px 5px 0px;
+   }
+   nav li{
+    display: inline-block;
+    padding-left: 40px;
+   }
+   nav li a{
+    color: #4D381D;
+    text-decoration: none;
+   }
+   header>img{
+    width: 170px;
+    padding-right: 10px;
+   }
+   #mainimage{
+    height: 365px;
+    width: 960px;
+   }
+   #maincontent> article{
+    display: inline-block;
+    width: 200px;
+    margin: 40px;
+    vertical-align: top;
+   }
+   #maincontent{
+    height: 400px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(0deg ,#FED5A9,#4D381D);
+   }
+   ul{
+    text-decoration: none;
+   }
+   nav li:hover,#sec2 li:hover{
+    background-color: k;
+    font-size: 14pt;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+   }
+   article>img{
+    width: 284px;
+    height: 172px;
+   }
+   article a{
+    float: left;
+    text-decoration: none;
+   }
+   article p{
+   text-align: justify;
+    height: 120px;
+   }
+   article img{
+    width: 200px;
+    border: 2px yellow solid;
+    border-radius: 5px;
+   }
+   #sec2 img{
+    display: inline-block;
+    width: 150px;
+   }
+   #sec2{
+    padding-bottom: 30px;
+    height: 110px;
+    background-image: linear-gradient(#FED5A9,#4D381D);
+   }
+   #sec2 ul{
+    width: 140px;
+    display: inline-block;
+    color: white;
+    padding-right: 0px;
+    margin-right: 50px;
+   }
+   #sec2 li a{
+    color: white;
+    text-decoration: none;
+   }
+   article a:hover{
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+   }
+   article img:hover{
+    border-radius: 2000px;
+    width: 200px;
+    height: 172px;
+   }
+   footer ul img{
+    width: 20px;
+   }
+   footer{
+   text-align: center;
+   background-color: grey;
+   border:1px grey solid;
+   }
+   footer li{
+    display:inline-block;
+   }
+   footer p{
+    margin-right: 40px;
+   }
+}
+@media all and (max-width:480px){
+    body{
+      direction: rtl;
+    }
+    header img{
+      width: 168px;
+      height: 128px;
+    }
+    img{
+      width: 272px;
+    }
+    nav{
+      background-color: #4D381D;
+      height: 40px;
+    }
+    nav li a{
+      color: white;
+      text-decoration: none;
+      padding-left: 6px;
+      font-weight: bold;
+    }
+    nav li{
+      display: inline-block;
+      padding-top: 10px;
+    }
+    #mainimage{
+      display: none;
+    }
+    article p{
+      text-align: justify,
+      width:280px;
+    }
+   }
+ </style>
+</head>
+<body>
+<header><img src="tifrit-logo-png.png"><nav>
+  <ul><li><a href="TemplateSiteWeb.html">الصفحة الرئيسية</a></li><li><a href=""> ﺻﻮﺭ </a></li><li><a href="">من نحن </a></li><li><a href="">ﻛﻠﻤﺔ ﺷﻜﺮ</a></li></ul>
+  </nav>
+</header>
+<section id="mainimage"><img src="Cvr-Groupe-tifrit.jpg"></section>
+<section id="maincontent">
+ <article><img src="Ass1.jpg"><p> PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP PHP </p><a href="Page1.html">اﻟﻤﺰﻳﺪ</a></article>
+ <article><img src="Ass2.jpg"><p>Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython Paython </p><a href=>اﻟﻤﺰﻳﺪ</a></article>
+ <article><img src="Ass3.jpg"><p> java java java java java java java java java java java java java java java java java java java java java java java java</p><a href="">المزيد</a></article></section>
+<section id="sec2">
+ <img src="tifrit-logo-png.png">
+ <ul><dl>اﻟﻤﻮاﺩ اﻟﺘﻌﻠﻴﻤﻴﺔ</dl><li><a href="">اﻟﺮﻳﺎﺿﻴﺎﺕ</a></li><li><a href="">ﻻﺇﺟﺘﻤﺎﻋﻴﺎﺕ</a></li><li><a href="">اﻟﻔﻴﺰﻳﺎء</a></li></ul>
+ <ul><dl>اﻟﺸﻌﺮ</dl><li><a href="">اﻟﺸﻌﺮ اﻟﻴﻮﻧﺎﻧﻲ</a></li><li><a href="">اﻟﺸﻌﺮ اﻟﻌﺮﺑﻲ</a></li><li><a href="">اﻟﺸﻌﺮ اﻟﺆﻭﻣﺎﻧﻲ</a></li></ul>
+ <ul><dl>اﻟﻠﻐﺎﺕ</dl><li><a href="">اﻟﻌﻠﻮﻡ اﻟﻄﺒﻴﻌﻴﺔ</a></li><li><a href="">اﻟﻠﻐﺔ اﻟﻔﺮﻧﺴﻴﺔ</a></li><li><a href="">اﻟﻠﻐﺔ اﻹﻧﺠﻠﻴﺰﻳﺔ</a></li></ul>
+ <ul><dl>اﻟﻌﻠﻮﻡ</dl><li><a href="">ﻋﻠﻢ اﻟﻔﻠﻚ</a></li><li><a href="">ﻋﻠﻢ اﻟﺬﺭﺓ</a></li><li><a href="">ﻋﻠﻢ اﻟﻔﻄﺮﻳﺎﺕ</a></li></ul>
+</section>
+<footer>
+<ul>
+ <li><a href="https://www.twitter.com/amdazr"><img src="twitter.png"></a></li>
+ <li><a href="https://www.youtube.com/amdazr"><img src="youtube.png"></a></li>
+ <li><a href="https://www.facebook.com/amdazr"><img src="facebook.png"></a></li>
+</ul>
+<p> ﺟﻤﻴﻊ اﻟﺤﻘﻮﻕ ﻣﺤﻔﻮﻇﺔ</p>
+</footer>
+</body>
+</html>
